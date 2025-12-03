@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Lightbulb, AlertTriangle, Users, DollarSign, Handshake, Newspaper, Wine, Check, X, RefreshCw, Copy, Sparkles, Wand2, Edit3, Loader2, ArrowRight, Zap, Trash2, Save, RotateCcw, FileText } from 'lucide-react';
+import { Lightbulb, AlertTriangle, Users, DollarSign, Link2, Newspaper, Wine, Check, X, RefreshCw, Copy, Sparkles, Wand2, Edit3, Loader2, ArrowRight, Zap, Trash2, Save, RotateCcw, FileText } from 'lucide-react';
 
 const BUZZWORDS = ['platform', 'leverage', 'synergy', 'disrupt', 'paradigm', 'ecosystem', 'scalable', 'innovative', 'cutting-edge', 'revolutionary', 'game-changing', 'world-class', 'next-gen', 'ai-powered', 'blockchain', 'web3', 'holistic', 'robust', 'seamless'];
 const SUPERLATIVES = ['first', 'only', 'best', 'biggest', 'fastest', 'cheapest', 'most', 'leading', 'top', 'premier', 'ultimate', 'unrivaled', 'unique'];
@@ -37,7 +37,7 @@ export default function PitchBuilder() {
   const audienceModes = [
     { id: 'investor', label: 'Investors', icon: DollarSign, desc: 'Focus on opportunity & traction' },
     { id: 'customer', label: 'Customers', icon: Users, desc: 'Focus on their problem & solution' },
-    { id: 'partner', label: 'Partners', icon: Handshake, desc: 'Focus on mutual value' },
+    { id: 'partner', label: 'Partners', icon: Link2, desc: 'Focus on mutual value' },
     { id: 'press', label: 'Press', icon: Newspaper, desc: 'Focus on the story angle' },
     { id: 'casual', label: 'Casual', icon: Wine, desc: 'Simple, relatable explanation' }
   ];
