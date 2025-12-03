@@ -43,38 +43,3 @@ export async function POST(request) {
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
   }
 }
-```
-Commit.
-
----
-
-**File 8 (the big one):** Name it `app/page.js`
-
-This file is too long to paste here in the chat. Download it directly:
-- [app/page.js](computer:///mnt/user-data/outputs/pitch-builder-project/app/page.js)
-
-Open that file, copy ALL the contents, paste into GitHub.
-
----
-
-## Step 3: Verify your structure
-
-When done, your repo should look like this at the root:
-```
-pitch-builder/
-├── app/
-├── package.json
-├── next.config.js
-├── tailwind.config.js
-└── postcss.config.js
-```
-
-And inside `app/`:
-```
-app/
-├── api/
-│   └── generate/
-│       └── route.js
-├── globals.css
-├── layout.js
-└── page.js
